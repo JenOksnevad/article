@@ -1,0 +1,136 @@
+
+@font-face{
+	font-family: 'Cantarell-Regular';
+	src:url(../fonts/cantarell/Cantarell-Regular.ttf) format('truetype');
+}
+
+@font-face{
+	font-family: 'Cantarell-Bold';
+	src:url(..fonts/cantarell/Cantarell-Bold.ttf)format('truetype');
+}
+
+@font-face{
+	font-family: 'Cantarell-BoldOblique';
+	src:url(..fonts/cantarell/Cantarell-BoldOblique);
+}
+
+/* All CSS styles go here */
+
+.header-image{
+	width: 100vw;
+	height: 00px;
+	src:url(.images/chicago-fire-new-logos.jpg) no-repeat center fixed;
+	background-size: cover;
+	width: 100%;
+}
+
+.cover{
+	padding-top: 50px;
+	vertical-align: center;
+}
+
+.title {
+	font-family: 'Cantarell-Bold';
+	font-size: 45px;
+	color: black;
+	text-align: center;
+	letter-spacing: .1em;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-bottom: 40px;
+}
+
+.text {
+	font-family: 'Cantarell-Regular';
+	font-size: 25px;
+	color: #5e5e5e;
+	width: 1000px;
+	letter-spacing: 0.1px;
+	line-height: 30px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.text-2 {
+	font-family: 'Cantarell-Regular';
+	font-size: 16px;
+	color: #5e5e5e;
+	width: 1000px;
+	letter-spacing: 0.1px;
+	line-height: 24px;
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+
+
+.link {
+	font-family: 'Cantarell-Regular';
+	font-size: 15px;
+	text-align: center;
+	color: #B3DDF2;
+	letter-spacing: 0.1px;
+	margin: auto;
+	margin-top: 60px;
+	display: block;
+	line-height: 24px;
+	padding: 10px 0 10px 0;
+	text-decoration: none;
+	transition: 0.4s;
+}
+
+.link:hover {
+	color: #FF0000;
+	background: #fbfbfb;
+	transition: 0.4s;
+}
+
+.quote{
+	font-family: 'Cantarell-Regular';
+	font-style: italic;
+	font-size: 25px;
+	color: #235cc6;
+}
+
+.sub-header{
+	font-family: 'Cantarell-BoldOblique';
+	font-style: italic;
+	font-size: 25px;
+	color: #235cc6;
+	margin-bottom: 20px;
+	margin: auto;
+	width: 1000px;
+}
+
+.author{
+	margin-top: 70px;
+}
+
+.body{
+	width: 100%;
+	padding: 0 88px;
+}
+
+.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	background-color: #E0E0E0;
+	font-family: 'Cantarell-Regular';
+	font-size: 15px;
+	letter-spacing: 0.1px;
+	line-height: 30px;
+}
+
+.spacer{
+	margin-bottom: 80px;
+}
